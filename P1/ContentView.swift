@@ -29,7 +29,7 @@ struct CardView: View {
             if isFaceUp {
                 RoundedRectangle(cornerRadius: 12)
                     .foregroundColor(.white)
-                RoundedRectangle(cornerRadius: 12)
+                RoundedRectangle(cornerRadius: 14)
                     .strokeBorder(style: StrokeStyle(lineWidth: 2))
                     .foregroundColor(.orange)
                 Text("👻").font(.largeTitle)
