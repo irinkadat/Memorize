@@ -26,6 +26,11 @@ struct MemoryGame<CardContent>{
     func choose(_ card:Card){
  
     }
+    
+    mutating func shuffle(){
+        cards.shuffle()
+        
+    }
 
     struct Card{
         var isFaceUp = true
